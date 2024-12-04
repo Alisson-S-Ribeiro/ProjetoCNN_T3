@@ -13,23 +13,24 @@ cd <PASTA_DO_REPOSITORIO>."
 Estrutura dos Arquivos: A pasta ProjetoRes_def.ipynb contém o código-fonte, enquanto a pasta "Relatório Técnico: Implementação e Análise de Classificação com Redes Convolucionais e o dataset CUFS" contém o relatório.
 
 Tecnologias Utilizadas:
-import os
-import math
-import json
-import time
-import itertools
-import numpy as np
-import seaborn as sns
-import matplotlib.pyplot as plt
-from PIL import Image
-from pickle import encode_long
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import f1_score, classification_report, roc_curve, auc, confusion_matrix
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.callbacks import EarlyStopping
-from tensorflow.keras.layers import BatchNormalization, LeakyReLU
-from tensorflow.keras.preprocessing.image import ImageDataGenerator
-from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropout.
+os
+math
+json
+time
+itertools
+numpy as np
+seaborn as sns
+matplotlib.pyplot as plt
+PIL import Image
+pickle import encode_lon sklearn.model_selection import train_test_split
+sklearn.metrics import f1_score, classification_report, roc_curve, auc, confusion_matrix
+tensorflow.keras.models import Sequentia 
+tensorflow.keras.callbacks 
+EarlyStopping
+tensorflow.keras.layers 
+BatchNormalization, LeakyReLU
+tensorflow.keras.preprocessing.image import ImageDataGenerator
+tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropout.
 
 Autores e Colaboradores: Alisson Santos Ribeiro(documentaçao e codigo) e Irlan Wallace dos Santos Mattos(documentaçao e codigo)
 .
