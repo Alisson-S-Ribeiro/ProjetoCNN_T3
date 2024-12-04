@@ -10,7 +10,7 @@ Copiar código
 git clone <URL_DO_REPOSITORIO>
 cd <PASTA_DO_REPOSITORIO>."
 
-Estrutura dos Arquivos: A pasta """ contém o código-fonte, enquanto  contém o relatório.
+Estrutura dos Arquivos: A pasta ProjetoRes_def.ipynb contém o código-fonte, enquanto a pasta "Relatório Técnico: Implementação e Análise de Classificação com Redes Convolucionais e o dataset CUFS" contém o relatório.
 
 Tecnologias Utilizadas: Liste as linguagens, bibliotecas e frameworks principais que foram usados no projeto, como Python, Flask, Pandas, etc. Isso é útil para quem deseja contribuir ou entender a base tecnológica.
 
