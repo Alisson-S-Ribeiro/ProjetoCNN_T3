@@ -12,7 +12,24 @@ cd <PASTA_DO_REPOSITORIO>."
 
 Estrutura dos Arquivos: A pasta ProjetoRes_def.ipynb contém o código-fonte, enquanto a pasta "Relatório Técnico: Implementação e Análise de Classificação com Redes Convolucionais e o dataset CUFS" contém o relatório.
 
-Tecnologias Utilizadas: Liste as linguagens, bibliotecas e frameworks principais que foram usados no projeto, como Python, Flask, Pandas, etc. Isso é útil para quem deseja contribuir ou entender a base tecnológica.
+Tecnologias Utilizadas:
+import os
+import math
+import json
+import time
+import itertools
+import numpy as np
+import seaborn as sns
+import matplotlib.pyplot as plt
+from PIL import Image
+from pickle import encode_long
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import f1_score, classification_report, roc_curve, auc, confusion_matrix
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.callbacks import EarlyStopping
+from tensorflow.keras.layers import BatchNormalization, LeakyReLU
+from tensorflow.keras.preprocessing.image import ImageDataGenerator
+from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropout.
 
 Autores e Colaboradores: Alisson Santos Ribeiro(documentaçao e codigo) e Irlan Wallace dos Santos Mattos(documentaçao e codigo)
 .
